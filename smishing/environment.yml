@@ -1,8 +1,14 @@
 name: smishing
+
+
 channels:
   - conda-forge
+  - pytorch
+  - nvidia
+  - main
+
 dependencies:
-  - python=3.10
+
   - black
   - flake8
   - isort
@@ -10,6 +16,60 @@ dependencies:
   - typer
   - loguru
   - tqdm
+
+  - python
+  - pip
+  - jupyter
+  - ipywidgets
+
+  # Data Work
+  - pandas
+  - pyarrow
+  - numpy
+
+  # PyTorch
+  - pytorch
+  - torchvision
+  - torchaudio
+  - torchtext
+  - pytorch-cuda=11.8 # My GPU is a 1070 which is on CUDA 11.8
+
+  # HuggingFace
+  - transformers
+
+  # Formating
+  - black
+  - flake8
+  - isort
+  - typer
+  - loguru
+  - tqdm
+
+  # NLP work
+  - nltk
+  - scikit-learn
+
+  # Web scraping
+  - requests
+  - beautifulsoup4
+
+  # PDF scraping
+  - pypdf2
+
+  - pdfminer.six
+
   - pip:
     - python-dotenv
-    - -e .
+    - pymupdf  #PDF Scraping
+    - lxml # Excel files and pandas
+
+    # Model Interpretation
+    - lime
+    - shape
+    - -e .  # Install the setup file
+
+
+
+  # - pip:
+  #   # - python-dotenv
+  #   - -e .
