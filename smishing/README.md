@@ -1,3 +1,20 @@
+**Team:**
+* Abahana Zelalem
+* Benjamin Arnosti
+* Brandon Botezr
+
+**Course:** AI 574 – Natural Language Processing (Fall, 2024)
+
+# Problem Statement
+The objective of this project is to develop an effective SMS phishing detection system by leveraging cutting-edge NLP models such as BERT and OpenAI LLMs. These models have revolutionized language understanding and exhibit the capability to detect phishing attempts in a more context-aware manner. By comparing their performance to traditional machine learning models such as RNNs, this project aims to highlight the strengths and limitations of each approach.
+
+Our system will analyze both the textual content of SMS messages and any embedded features, such as URLs, email addresses, or phone numbers, to classify messages as phishing, smishing, spam, or legitimate (ham). While traditional models rely on handcrafted features and are generally faster, they may lack the sophistication needed to handle the complexities of modern phishing techniques. Transformer-based models, on the other hand, offer enhanced performance by capturing nuanced patterns in short messages, which is crucial in detecting sophisticated phishing attacks hidden in mobile text formats.
+
+By comparing traditional and advanced models, the project will provide insights into which models strike the best balance between performance, interpretability, and computational efficiency for real-time phishing detection in mobile environments.
+
+* **Keywords:** SMS, Phisishing, Smishing, text, phone, Natural Language Processing
+
+
 # Dataset Description
 
 URL: https://data.mendeley.com/datasets/f45bkkt8pr/1/
